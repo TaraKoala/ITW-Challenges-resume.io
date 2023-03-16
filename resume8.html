@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+</head>
+<body>
+    <header class="hero-image">
+        <picture>
+            <source srcset="images/thimage3.jpeg" media="(max-width: 600px)">
+            <source srcset="images/thimage1.jpeg" media="(max-width: 1500px)">
+            <img src="images/thimage2.jpeg" alt="profile image" style="max-width:100%;height:auto;">
+        </picture>
+        <div class="heading-text">
+            <h1 style="font-size:5vw" >Tara Hendricks</h1>
+            <p>Junior Web developer | Student of life</p>
+        </div>
+    </header>
+
+    <main>
+       <aside>
+        <div class="menu">
+            <ul>
+                <h4>Menu</h4>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </div>
+       </aside> 
+       <article>
+        <div class="introduction">
+            <p>Hi! My name is Lorem ipsum. Introductory personal statement here.</p> 
+        </div>
+         <section id="education">
+                <h2 >Education</h2>
+                <h3>Intro to Web at <a href="https://www.codespace.co.za/">CodeSpace Academy</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus incidunt maxime necessitatibus, illo ad mollitia  nihil obcaecati quisquam ipsa, neque laborum porro fugit, provident reiciendis odio id saepe veniam? Voluptate.</p>
+                <h3>Qualification 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus incidunt maxime necessitatibus, illo ad mollitia nihil obcaecati quisquam ipsa, neque laborum porro fugit, provident reiciendis odio id saepe veniam? Voluptate. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque id laboriosam totam sequi non neque doloremque  magni provident recusandae delectus minus facilis illo, inventore ipsa eaque quasi natus laudantium accusamus?</p>
+    
+            </section>
+            <section id="experience">
+                <h2>Experience</h2>
+                <h3>Job 1</h3>
+                <ul>
+                    <li>A sentence about the responsibilities of the job </li>
+                    <li>A sentence about the responsibilities of the job </li>
+                    <li>A sentence about the responsibilities of the job </li>
+                    <li>A sentence about the responsibilities of the job </li>
+                </ul>
+                <h3>Job 2</h3>
+                <ul>
+                    <li>A sentence about the responsibilities of the job </li>
+                    <li>A sentence about the responsibilities of the job </li>
+                    <li>A sentence about the responsibilities of the job </li>
+                    <li>A sentence about the responsibilities of the job </li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="skills">Skills</h2>
+                <ul>
+                    <li>Skill 1</li>
+                    <li>Skill 2</li>
+                    <li>Skill 3</li>
+                    <li>Skill 5</li>
+                </ul>
+            </section>
+       </article>
+       
+    </main>
+       
+    <footer>
+        <h2>Contact Details</h2>
+        <div class="contactme">
+            <a href="https://www.linkedin.com/feed/"><img src="images/linkedin1.png" alt="linked in" class="linkedimg"></a>
+            <form action="https://formsubmit.co/taradecodehendricks@gmail.com" method="POST">
+                <h4>Get in touch</h4>
+                <div>
+                    <label for="name" required>Name:</label>
+                    <input type="text" id="name" name="user_name" required>
+                </div>
+                <div>
+                    <label for="mail" required>Email:</label>
+                    <input type="mail" id="mail" name="user_mail" required>
+                        
+                </div>
+                <div>
+                    <p>Rate my web design skills:</p>
+                </div>
+                <div>
+                    <input type="radio" name="rating" value="Great" required>
+                    <label for="rating">Amazing!</label>
+                    <input type="radio" name="rating" value="Okay">
+                    <label for="rating">It's okay</label>
+                    <input type="radio" name="rating" value="meh">
+                    <label for="rating">Meh</label>
+                    <input type="radio" name="rating" value="Poor">
+                    <label for="rating">You need work, girl.</label>
+                </div>
+                <div>
+                    <label for="msg">Leave me a message:</label>
+                </div>
+                <div>
+                    <textarea name="user_message" id="msg"></textarea>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </footer>
+    
+</body>
+</html>
